@@ -15,7 +15,7 @@ In order to be consumed by artman, APIs require:
   * An artman configuration. This is the file artman uses as the entry point,
     and it points to the previous items in this list.
 
-The artman tool is a wrapper around `toolkit`_; it takes the configuration
+The artman tool is a wrapper around `GAPIC Generator`_; it takes the configuration
 enumerated above, normalizes it, and sends it to toolkit, which generates
 a client library on disk, and then artman performs some concluding cleanup.
 
@@ -25,7 +25,7 @@ metadata files.
 
 .. _`Protocol Buffers`: https://developers.google.com/protocol-buffers/
 .. _`service configuration`: https://cloud.google.com/service-management/overview#service_configurations
-.. _`toolkit`: https://github.com/googleapis/toolkit
+.. _`GAPIC Generator`: https://github.com/googleapis/gapic-generator
 
 Installing
 ==========
